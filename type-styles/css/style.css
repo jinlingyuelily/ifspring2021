@@ -1,0 +1,94 @@
+html {
+    font-size: 24px;
+    color: rgb(50, 68, 90);
+    background-color: rgb(183, 196, 223);
+    text-indent: 10%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+h1 {
+    font-size: 1.75rem;margin-bottom: .4em;
+}
+
+h2 {
+    font-size: 1.2rem;margin-bottom: .4em;color: rgb(112, 78, 122);
+}
+
+h3 {
+    font-size: .6rem;margin-bottom: .2em;color:  rgb(172, 106, 166);
+}
+
+p {
+    margin-top: 0;
+}
+
+.styledFont {
+    font-family: 'Ubuntu';
+}
+
+section.FontWeight p.Normal {
+    font-weight: normal;
+}
+
+section.FontWeight p.Bold {
+    font-weight: bold;
+}
+
+section.FontStyle p.Normal {
+    font-style: normal;
+}
+
+section.FontStyle p.Italic {
+    font-style: italic;
+}
+
+section.LetterSpacing p.Normal {
+    letter-spacing: normal;
+}
+
+section.LetterSpacing p.Wide {
+    letter-spacing: .3em;
+}
+
+section.LetterSpacing p.Narrow {
+    letter-spacing: -.06em;
+}
+
+section.TextDecoration p.None {
+    text-decoration: none;
+}
+
+section.TextDecoration p.Underline {
+    text-decoration: underline;
+}
+
+section.TextDecoration p.LineThrough {
+    text-decoration: line-through;
+}
+
+section.TextDecoration p.Overline {
+    text-decoration: overline;
+}
+
+section.TextTransform p.None {
+    text-transform: none;
+}
+
+section.TextTransform p.Uppercase {
+    text-transform: uppercase;
+}
+
+section.TextTransform p.Lowercase {
+    text-transform: lowercase;
+}
+
+section.TextTransform p.Capitalize {
+    text-transform: capitalize;
+}
