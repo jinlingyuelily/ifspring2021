@@ -1,0 +1,155 @@
+html{
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 18px;
+}
+
+.panel{
+    padding: 40px;
+    background-color: rgb(96, 157, 159,0.5);
+}
+
+.safe-area{
+    width: 960px;
+    margin: auto;
+}
+
+header.panel .safe-area{
+    text-align: center;
+    padding-top:112px;
+    padding-bottom: 140px;
+}
+
+header.panel .subheading{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(60, 72, 138);
+}
+
+header.panel h1{
+    font-size: 80px;
+    margin: 0;
+}
+
+header{
+    background-image: url(https://res.klook.com/image/upload/fl_lossy.progressive/q_65/c_fill,w_1360/blogtw/2020/02/aj-McsNra2VRQQ-unsplash-01.png);
+    background-size: cover;
+    color: rgb(35, 45, 104);
+}
+
+.feature.panel{
+    background-color: rgb(91, 77, 124)
+}
+
+.feature.panel .safe-area{
+    margin-bottom: -8px;
+}
+
+.feature{
+    color: seashell;
+}
+
+.feature.panel h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: -4px;
+    margin-bottom: 32px;
+}
+
+.float{
+    float: right;
+    width: 400px;
+    height: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+/* --------------- */
+
+.gallery.panel{
+    background-color: rgb(241, 212, 253)
+}
+
+.gallery.panel .safe-area{
+    margin-bottom: -22px;
+    color: rgb(2, 37, 51);
+}
+.image{
+    display: flex;
+}
+
+.gallery.panel h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: -4px;
+    margin-bottom: 16px;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: -8px;
+}
+
+ul{
+    display: block;
+    padding: 0;
+    width: 425px;
+    margin-right: 52px;
+}
+
+li{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.imagetext{
+    font-size: 18px;
+    text-align: left;
+}
+
+.grid{
+    float: left;
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+    
+}
+
+/* ------------- */
+
+.conclusion.panel{
+    background-color: rgb(91, 77, 124);
+}
+
+.conclusion.panel .safe-area{
+    margin-bottom: 28px;
+    color: seashell;
+}
+
+.conclusion.panel .safe-area p{
+    font-size: 27px;
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.conclusion.panel h2{
+    text-align: center;
+    font-size: 40px;
+    margin-top: -4px;
+    margin-bottom: 36px;
+}
+
+/* ----------- */
+
+footer.panel{
+    background-color: seashell;
+}
+
+footer .safe-area p{
+    margin-top: 0;
+    color: rgb(20, 12, 71);
+}
