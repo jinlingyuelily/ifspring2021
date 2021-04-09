@@ -1,0 +1,83 @@
+html{
+    margin-left: auto; 
+    margin-right: auto;
+    width: 90%;
+    max-width: 960px;
+    font-family: kinesis-pro-3, serif;
+    background-color: rgb(247, 235, 218);
+}
+
+h1{
+    text-align: center;
+    color: rgb(59, 31, 5);
+}
+
+img{
+    width: 60%;
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+
+.description p{
+    display: block;
+    font-size: 18px;
+    color: rgb(59, 31, 5);
+    text-align: justify;
+
+
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+h2{
+    color: rgb(233, 161, 79);
+}
+
+ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.ingredients{
+    width: 25%;
+}
+.ingredients li{
+    display: block;
+    width: 100%;
+    font-size: 22px;
+}
+
+
+.instruction{
+    width: 75%;
+}
+.instruction li{
+    display: block;
+    width: 100%;
+    font-size: 22px;
+}
+
+.author{
+    text-align: center;
+    color: rgb(59, 31, 5);
+}
+
+@media(max-width: 640px){
+    ul{
+        display: block;
+    }
+    .ingredients{
+        width: 100%;
+        text-align: center;
+    }
+
+    .instruction{
+        width: 100%;
+        text-align: center;
+    }
+}
